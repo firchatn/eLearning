@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin</title>
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+</head>
+
+ <form class='modal-content animate' action='ajouterformation.php' method='post' enctype="multipart/form-data">
+    <div class='container'>
+	  <label><b>Name</b></label>
+      <input type='text'  name='name' required>
+	  <br>
+	  
+	  <label><b>Prof</b></label>
+      <input type='text'  name='prof' required>
+	  
+
+  <label><b>Duree</b></label>
+      <input type='text'  name='duree' required>
+	  <br>
+	  
+	    <label><b>Description</b></label>
+      <input type='text'  name='desc' required>
+	  <br>
+
+	  	  <label><b>Image	</b></label>
+	    <input type="file" id='img' name="img">
+		<br>
+		<br>	
+
+<br>	
+<br>	
+	  <br>
+	 
+	 <body>
+	 <br>
+	 <br>
+	 <br>
+	 <center>
+	 <button type="sumbit" >ajouter </button> 
+	 </center>
+	 </body>
+	 </html>
