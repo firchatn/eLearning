@@ -28,7 +28,7 @@ li a:hover {
 }
 </style>
 </head>
-<body background="admin1.jpg">
+<body background="img/admin1.jpg">
 
 <div id="list" style="text-align: left">
 <ul>
