@@ -126,7 +126,7 @@ if ($conn->connect_error) {
 			
 			
 ?>
-<form method="post" action="affecter.php">
+<form method="post" action="affecterformation.php">
   <div class="form-group has-success has-feedback">
     <label for="inputSuccess2">Teacher</label>
     <input type="text" class="form-control" id="inputSuccess2" name ="teacher">
