@@ -98,7 +98,7 @@ if ($conn->connect_error) {
 					$email=$ligne[4];
 					$city=$ligne[5];
 					$tel=$ligne[6];
-					echo "<tr><td>$id</td><td>$nom</td><td>$prenom</td><td>$email</td><td>$password</td><td>$city</td><td>$tel</td><td><a href='addteacher.php?id=$id'> <i class='fa fa-check' aria-hidden='true'></i></a></td><td><a href='deleteteacher2.php?id=$id'><i class='fa fa-trash-o' aria-hidden='true'></i></a></td><tr>";
+					echo "<tr><td>$id</td><td>$nom</td><td>$prenom</td><td>$email</td><td>$password</td><td>$city</td><td>$tel</td><td><a href='addteacher.php?id=$id'> <i class='fa fa-check' aria-hidden='true'></i></a></td><td><a href='deleteconfirmteacher.php?id=$id'><i class='fa fa-trash-o' aria-hidden='true'></i></a></td><tr>";
 			
 		}
 			}
