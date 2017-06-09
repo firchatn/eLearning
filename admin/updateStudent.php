@@ -65,7 +65,7 @@ $city = $ligne[6];
 $tel = $ligne[5];
 				}
 
- echo "<form class='modal-content animate' action='update.php?id=$v' method='post'>
+ echo "<form class='modal-content animate' action='actionUpdateStudent.php?id=$v' method='post'>
     <div class='container'>
 	  <label><b>Name</b></label>
       <input type='text' value='$name' name='name' required>
