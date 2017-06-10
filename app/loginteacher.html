@@ -92,11 +92,11 @@ button {
 <body>
 
 <center> <h2> E Learning </h2> 
-<center> <h2> Teacher </h2>
+
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 </center>	
 <div id="id01" class="modal">
-  <form class="modal-content animate" action="login.php" method="post">
+  <form class="modal-content animate" action="loginteacher.php" method="post">
     <div class="container">
 	  
 	  
@@ -119,50 +119,9 @@ button {
   </form>
 </div>
 
-
-
-<center> <h2> E Learning </h2> 
-<center> <h2> Teacher </h2>
-<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Login</button>
-</center>	
-<div id="id01" class="modal">
-  <form class="modal-content animate" action="login.php" method="post">
-    <div class="container">
-	  
-	  
-      <label><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
-
-      <label><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="password" required>
-
-	 
-	  
-      <input type="checkbox" checked="checked"> Remember me
-      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-
-      <div class="clearfix">
-        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
-        <button type="submit" class="signupbtn">Login</button>
-      </div>
-    </div>
-  </form>
-</div>
-
-
-
 <script>
 // Get the modal
 var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-// Get the modal
-var modal = document.getElementById('id02');
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
